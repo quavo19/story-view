@@ -1,4 +1,4 @@
-![Story View - Simform](./assets/banner.png)
+![Story View - Donald](./assets/banner.png)
 
 # react-native-story-view
 
