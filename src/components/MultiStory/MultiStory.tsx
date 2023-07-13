@@ -12,7 +12,7 @@ import type { MultiStoryProps, MultiStoryRef } from './types';
 
 const MultiStory = forwardRef<MultiStoryRef, MultiStoryProps>(
   ({ stories, transitionMode, avatarProps, ...props }, ref) => {
-    const [isStoryViewVisible, setIsStoryViewShow] = useState<boolean>(false);
+    const [isStoryViewVisible, setIsStoryViewShow] = useState<boolean>(true);
     const [pressedIndex, setPressedIndex] = useState<number>(-1);
 
     const openStories = (index: number) => {
